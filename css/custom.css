@@ -1,0 +1,27 @@
+.bg-dark {
+  background-color: #015976!important;
+}
+
+.jumbotron {
+  background:
+    /* top, transparent, faked with gradient */
+    linear-gradient(
+      rgba(0, 137, 181, 0.65),
+      rgba(0, 137, 181, 0.65)
+    ),
+    /* bottom, image */
+    url('../img/ics-bg.jpg');
+    background-size: cover;
+}
+
+.text-muted {
+  color: #2f465a!important;
+}
+
+hr {
+  background-color: #333;
+}
+
+.text-shadow {
+  text-shadow: 2px 2px 15px #000;
+}

@@ -2,6 +2,10 @@
   background-color: #015976!important;
 }
 
+.badge-dark {
+  background-color: #015976!important;
+}
+
 .jumbotron {
   background:
     /* top, transparent, faked with gradient */
@@ -24,4 +28,17 @@ hr {
 
 .text-shadow {
   text-shadow: 2px 2px 15px #000;
+}
+
+.text-dark {
+  color: #343a40!important;
+}
+
+.oswald {
+  font-family: 'oswald', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif!important;
+    color: #565656;
 }

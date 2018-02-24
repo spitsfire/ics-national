@@ -7,12 +7,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/custom.css">
-    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <title>ICS-National Collection Services&mdash;Home</title>
   </head>
   <body id="home" data-spy="scroll" data-target=".navbar" data-offset="100">
     <!-- navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container mx-auto">
         <a class="navbar-brand d-sm-block d-md-none" href="#">Navigation</a>
         <a class="navbar-brand d-none d-md-block order-1 mr-0 oswald" href="#">ICS-National Collection Services</a>
@@ -24,7 +24,7 @@
             <a class="nav-item nav-link" href="#">Home</a>
             <a class="nav-item nav-link" href="#about">About</a>
             <a class="nav-item nav-link" href="#services">Services</a>
-            <a class="nav-item nav-link" href="#contact">Contact</a>
+            <a class="nav-item nav-link" href="#contact" data-toggle="modal" data-target="#infoPacket">Contact</a>
             <a class="nav-item nav-link" href="#client">Client Login</a>
           </div>
         </div>
@@ -32,27 +32,26 @@
     </nav><!-- /navbar -->
 
     <!-- jumbotron -->
-    <div class="jumbotron jumbotron-fluid mt-2 pb-2">
+    <div class="jumbotron jumbotron-fluid mt-0 mb-3 pb-2">
       <div class="container">
         <h1 class="d-none d-md-block">
           <small class="display-4 text-white">A New Approach,</small>
         </h1>
         <h1 class="display-3 ml-5 pl-5 d-none d-md-block text-white">A Better Result</h1>
-        <p class="text-white text-shadow text-justify roboto">Our Mission&mdash;To provide clients with effective professional collection services that are economical; delivered in a manner that protects variable customer relationships and the clients’ reputations in their communities; delivered by an easy-to-use web-based account management system that is available to clients on-demand 24/7.</p>
+        <p class="text-white text-shadow text-justify">Our Mission&mdash;To provide clients with effective professional collection services that are economical; delivered in a manner that protects variable customer relationships and the clients’ reputations in their communities; delivered by an easy-to-use web-based account management system that is available to clients on-demand 24/7.</p>
         <hr class="my-4">
         <p class="lead text-center">
-          <button type="button" class="btn btn-dark btn-lg">Commercial Business</button>
-          <button type="button" class="btn btn-dark btn-lg">Healtchcare Practice</button>
+          <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#infoPacket">Request an Information Packet</button>
           <button type="button" class="btn btn-light btn-lg">Affiliate Program</button>
         </p>
       </div>
     </div><!-- /jumbotron -->
 
-    <!-- three-column content -->
-    <div class="container pb-3 my-5 text-dark">
-      <div class="row">
+    <div class="container py-3 my-5 text-dark mx-auto">
+    <!-- about -->
+      <div id="about" class="row mb-5 py-3">
         <div class="col-md">
-          <h3 class="text-center oswald mb-2">National Preferred Vendor&mdash;</h3>
+          <h3 class="text-center oswald mb-3">National Preferred Vendor&mdash;</h3>
           <p class="text-center">
             <span class="badge badge-pill badge-dark">ProTradeNet®</span>
             <span class="badge badge-pill badge-dark">Mr. Rooter®</span>
@@ -68,7 +67,7 @@
           </p>
         </div>
         <div class="col-md ml-auto">
-          <h3 class="text-center oswald mb-2">5-Star Approach</h3>
+          <h3 class="text-center oswald mb-3">5-Star Approach</h3>
           <p>
             Our better approach is called the 5-Star Collection Program because it delivers the 5 benefits that define a true collection solution for your business:
             <ul>
@@ -81,17 +80,48 @@
             </ul>
           </p>
         </div>
-      </div>
-    </div><!-- /content -->
-
-    <!-- Contact -->
-    <div class="container my-5 py-5 mx-auto">
-      <h3 id="contact" class="text-center oswald mb-2">Contact Us</h3>
-      <p class="text-center">
-        Click the button below and fill out the form to request an information packet containing complete details on our services, rates, and terms.<br/>
-      </br/>
-        <button type="button" class="btn btn-dark btn-lg" data-toggle="modal" data-target="#infoPacket">Request an Information Packet</button>
+      </div><!-- /about -->
+    </div>
+    <div class="container-fluid py-5 mt-5 bg-gray text-dark">
+    <!-- services -->
+    <div class="container">
+      <h3  id="services" class="text-center oswald mb-3">Services</h3>
+      <p class="text-center mb-5">
+        <button type="button" class="btn btn-dark">Commercial Business</button>
+        <button type="button" class="btn btn-dark">Healthcare Practice</button>
       </p>
+      <p>
+        Most businesses would use a collection agency for problem accounts if it were not for the high cost, the administrative hassles, and their reluctance to subject customers to the unpleasant nature of the traditional collection process.<br /><br />
+
+        With our <b>5-Star Collection Program</b>, these drawbacks have been eliminated.<br /><br />
+
+        Our new approach begins with a <b>low, flat-fee based collection cost</b>. Unlike traditional agencies that charge a 50% collection commission, our cost of collection begins with a flat-fee of <b>$12.00 or less per account</b>, regardless of account balance. At this price, our cost of collection is less than the cost of your own in-house efforts, but as a collection agency, our collection rate is much higher.<br /><br />
+
+        Our new approach employs <b>proprietary database software</b> and <b>internet technologies</b> to make account management <b>fast, easy,</b> and <b>available 24/7</b>. No wasted staff time making copies, sending faxes and waiting for status reports that are outdated by the time they are received. Our Account Management Website provides <b>on-demand</b> account status reporting and agency performance reporting as needed, 24/7.<br /><br />
+
+        Our new approach is diplomatic and will not interfere with viable customer relationships. You can now utilize the power of a collection agency to improve cash flow and profitability <b>without concern for the impact on your customer relationships</b>.<br /><br />
+
+        Our new approach to collection services includes a commitment to delivery of services in a professional manner. As business owners ourselves, we understand the importance of your hard-earned reputation in the community. We pledge to each of our clients that we will do nothing in the performance of our duties that will reflect badly on either of our organizations.
+      </p>
+    </div><!-- services -->
+    </div>
+  </div><!-- container -->
+  <!-- footer -->
+  <footer class="page-footer text-white bg-dark-gray py-4">
+    <!--footer links-->
+    <div class="container mx-auto">
+        <div class="row">
+            <div class="col-md">
+                <small><a href="mailto:info@ics-national.com?Subject=Information%20on%20ICS%20Services">info@ics-national.com</a></small>
+            </div>
+            <div class="col-md ml-auto text-right">
+                <small>&copy; 2005 &mdash; 2017 ICS-National Collection Services</small>
+            </div>
+        </div>
+    </div><!-- /footer links -->
+  </footer><!-- /footer -->
+
+    <!-- InfoPacket -->
       <!--=====================================
        FORM MODAL
       ======================================-->
@@ -99,12 +129,15 @@
         <div class="modal-dialog modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header bg-dark text-white">
-              <h5 class="modal-title oswald text-center" id="exampleModalLabel">PLEASE FILL OUT THE FOLLOWING</h5>
+              <h5 class="modal-title oswald text-center" id="exampleModalLabel">Request an Information Packet</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
+              <div class="alert alert-info" role="alert">
+                Or call toll-free at <strong>877-622-2331</strong>.
+              </div>
         <!-- registration form -->
             <form>
               <div class="input-group mb-3">

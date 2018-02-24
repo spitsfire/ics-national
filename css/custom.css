@@ -2,6 +2,14 @@
   background-color: #015976!important;
 }
 
+.bg-gray {
+  background-color: #f0f3f6!important;
+}
+
+.bg-dark-gray {
+  background-color: #4b545c!important;
+}
+
 .badge-dark {
   background-color: #015976!important;
 }
@@ -39,6 +47,9 @@ hr {
 }
 
 p {
-    font-family: 'Roboto', sans-serif!important;
     color: #565656;
+}
+
+footer a {
+  color: #fff;
 }
